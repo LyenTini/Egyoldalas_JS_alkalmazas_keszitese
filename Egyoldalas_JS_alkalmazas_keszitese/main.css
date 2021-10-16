@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body>div:nth-child(2) {
+    top: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#error {
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+}
+
+#betoltes,
+.reset {
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#lista {
+    top: 140px;
+    padding: 0;
+    list-style-type: none;
+}
+
+span {
+    color: #FFFFFF;
+}
+
+.card {
+    width: 500px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.cardList {
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(66, 103, 178);
+}
+
+ul {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
